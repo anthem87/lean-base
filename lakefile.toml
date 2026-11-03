@@ -1,0 +1,10 @@
+name = "LeanBase"
+defaultTargets = ["LeanBase"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "3e1821461a4bc54072a3bd970e5a2ea5d9fd9713"
+
+[[lean_lib]]
+name = "LeanBase"
