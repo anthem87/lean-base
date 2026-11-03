@@ -9,7 +9,7 @@ A. Mennillo's papers (namespace `LeanBase`). Lean v4.36.0-rc2, Mathlib
 | `LeanBase.PrimeSums` | `p m` (the `(m+1)`-st prime), `S(x) = 1 + Σ_{q ≤ x} q`, Bertrand, the step `log S_{p_{m+1}} − log S_{p_m}`, `PNTcons` |
 | `LeanBase.SubsetSum` | `IsSubsetSum`, Brown's gap-filling criterion |
 | `LeanBase.Classical.*` | `Li_k(x)`, Landau's theorem for Dirichlet series with non-negative coefficients and its use: one-sided bounds `Σ_{p≤x} p^k − Li_k(x) = O(x^{k+1/2+ε})` imply RH (`prop30_two_imp_RH`, `prop30_three_imp_RH`) |
-| `LeanBase.Hypotheses` | published theorems as explicit hypotheses (`RosserSchoenfeld`) |
+| `LeanBase.Hypotheses` | published theorems as explicit hypotheses: `RosserSchoenfeld`, `VonKochPi` (RH ⇒ `π(x) − Li(x) = O(√x log x)`, `x ≥ 2`), `VonKochPsi` (RH ⇒ `ψ(x) = x + O(√x log² x)`) |
 
 Published theorems enter as `Prop`-valued definitions, never as axioms. No `sorry`; only the axioms
 `propext`, `Classical.choice`, `Quot.sound`. Extracted from
