@@ -15,6 +15,10 @@ Published theorems enter as `Prop`-valued definitions, never as axioms. No `sorr
 `propext`, `Classical.choice`, `Quot.sound`. Extracted from
 [arcs-algo](https://github.com/anthem87/arcs-algo).
 
+## AI use
+
+The Lean code was written with AI assistance under the author's direction.
+
 ## License
 
 AGPL-3.0-or-later. The file `LICENSE` is the text of the GNU Affero General Public License,
